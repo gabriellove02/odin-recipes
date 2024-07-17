@@ -1,0 +1,52 @@
+* {
+    background-color: burlywood;
+}
+
+img {
+    border: 2px solid black;
+    width: 600px;
+    height: 100%;
+}
+
+figcaption {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h1,
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+#center {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p, li {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    margin: auto;
+}

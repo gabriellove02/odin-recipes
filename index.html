@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <h2>Recipe links</h2>
-    <ul>
-        <li><a href="recipes/vegan-brownies.html" target="_blank" rel="noopener noreferrer">Vegan brownies</a></li>
-        <li><a href="recipes/pasta-salad.html" target="_blank" rel="noopener noreferrer">Pasta salad</a></li>
-        <li><a href="recipes/chicken-noodles.html" target="_blank" rel="noopener noreferrer">Chicken noodle salad</a></li>
-    </ul>
+    <h1 class="underlined">Odin Recipes</h1>
+    <h2>Click the images to see the recipes!</h2>
+    <div class="row">
+        <div class="column">
+           <a href="recipes/vegan-brownies.html" target="_blank" rel="noopener noreferrer">
+            <picture>
+                <source srcset="recipes/vegan-brownies.webp" type="image/webp" style="width:100%">
+                <img src="recipes/vegan-brownies.webp" alt="image link to vegan brownies recipe"> 
+            </picture></a>
+            <figcaption>Vegan brownies</figcaption>
+        </div>
+        <div class="column">
+            <a href="recipes/pasta-salad.html" target="_blank" rel="noopener noreferrer">
+             <picture>
+                 <source srcset="recipes/pasta-salad.webp" type="image/webp" style="width:100%">
+                 <img src="recipes/pasta-salad.webp" alt="image link to pasta salad recipe">
+                </picture></a>
+                 <figcaption>Pasta salad</figcaption>
+         </div>
+         <div class="column">
+            <a href="recipes/chicken-noodles.html" target="_blank" rel="noopener noreferrer"><picture>
+                 <source srcset="recipes/chicken-noodles.webp" type="image/webp" style="width:100%">
+                 <img class="resized" src="recipes/chicken-noodles.webp" alt="image link to chicken noodles recipes">
+                </picture></a>
+                 <figcaption>Chicken noodles</figcaption>
+         </div>
+    </div>
 </body>
 </html>
